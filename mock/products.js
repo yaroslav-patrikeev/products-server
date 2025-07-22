@@ -1,0 +1,36 @@
+export let products = [
+  {
+    id: 1,
+    name: "Джинсы",
+    price: 2499,
+    description: "Классические синие джинсы",
+    category: "Одежда",
+    stock: 30,
+    imageUrl: "/images/jeans.jpg",
+    rating: 4.7,
+    createdAt: new Date("2025-02-10"),
+  },
+  {
+    id: 2,
+    name: "Футболка",
+    price: 999,
+    description: "Хлопковая футболка с принтом",
+    category: "Одежда",
+    stock: 50,
+    imageUrl: "/images/t-shirt.jpg",
+    rating: 4.5,
+    createdAt: new Date("2025-01-15"),
+  },
+
+  {
+    id: 3,
+    name: "Кроссовки",
+    price: 5999,
+    description: "Спортивные кроссовки для бега",
+    category: "Обувь",
+    stock: 25,
+    imageUrl: "/images/sneakers.jpg",
+    rating: 4.8,
+    createdAt: new Date("2025-03-05"),
+  },
+];
